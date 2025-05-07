@@ -51,6 +51,40 @@ And next, you can use the following configuration for both Claude Desktop and Cu
 }
 ```
 
+## Examples
+
+Here are some examples of how to use the `novita-mcp-server` to manage your resources with Claude Desktop or Cursor:
+
+### List clusters
+
+```txt
+List all the Novita clusters
+```
+
+### List products
+
+```txt
+List all available Novita GPU instance products
+```
+
+### List GPU instances
+
+```txt
+List all my running Novita GPU instances
+```
+
+### Create a new GPU instance
+
+```txt
+Create a new Novita GPU instance:
+
+Name: test-novita-mcp-server-01
+Product: any available product
+GPU Number: 1
+Image: A standard public PyTorch/CUDA image
+Container Disk: 60GB
+```
+
 ## Testing
 
 This project uses Jest for testing. The tests are located in the src/__tests__ directory.
