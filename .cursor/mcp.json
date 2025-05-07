@@ -1,8 +1,8 @@
 {
   "mcpServers": {
-    "novita": {
-      "command": "node",
-      "args": ["your/path/to/novita-mcp-server/build/index.js"],
+    "@novitalabs/novita-mcp-server": {
+      "command": "npx",
+      "args": ["-y", "@novitalabs/novita-mcp-server"],
       "env": {
         "NOVITA_API_KEY": "your_api_key_here"
       }
