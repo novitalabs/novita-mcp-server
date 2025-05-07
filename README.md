@@ -1,4 +1,5 @@
 # Novita MCP Server
+[![smithery badge](https://smithery.ai/badge/@novitalabs/novita-mcp-server)](https://smithery.ai/server/@novitalabs/novita-mcp-server)
 
 `novita-mcp-server` is a Model Context Protocol (MCP) server that provides seamless interaction with Novita AI platform resources. We recommend accessing this server through [Claude Desktop](https://claude.ai/download), [Cursor](https://www.cursor.com/), or any other compatible MCP client.
 
@@ -20,6 +21,15 @@ Supported operations are as follows:
 
 You can install the package using either npm, mcp-get, or Smithery:
 
+### Installing via Smithery
+
+To install novita-mcp-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@novitalabs/novita-mcp-server):
+
+```bash
+npx -y @smithery/cli install @novitalabs/novita-mcp-server --client claude
+```
+
+### Installing Manually
 Using npm:
 ```bash
 npm install -g @novitalabs/novita-mcp-server
