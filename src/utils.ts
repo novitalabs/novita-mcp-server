@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import fetch from "node-fetch";
 
 export function clearSensitiveInfo(data: any) {

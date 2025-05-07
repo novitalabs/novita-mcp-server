@@ -1,6 +1,6 @@
 {
   "name": "@novitalabs/novita-mcp-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server for interacting with Novita AI API",
   "license": "MIT",
   "type": "module",
@@ -28,10 +28,10 @@
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
-    "jest": "^29.7.0",
-    "ts-jest": "^29.2.6",
-    "shx": "^0.3.4",
     "@types/node": "^20.10.5",
+    "jest": "^29.7.0",
+    "shx": "^0.3.4",
+    "ts-jest": "^29.2.6",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3"
   }

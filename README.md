@@ -1,4 +1,4 @@
-# Novita AI MCP Server
+# Novita MCP Server
 
 `novita-mcp-server` is a Model Context Protocol (MCP) server that provides seamless interaction with Novita AI platform resources. We recommend accessing this server through [Claude Desktop](https://claude.ai/download), [Cursor](https://www.cursor.com/), or any other compatible MCP client.
 

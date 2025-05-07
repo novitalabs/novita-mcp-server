@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { z } from "zod";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { novitaRequest, clearSensitiveInfo } from "./utils.js";
