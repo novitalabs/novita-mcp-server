@@ -1,0 +1,24 @@
+
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - novitaApiKey
+    properties:
+      novitaApiKey:
+        type: string
+        description: Your Novita API key for authentication, get it from https://novita.ai/settings/key-management
+  commandFunction:
+    # A function that produces the CLI command to start the MCP on stdio.
+    |-
+    (config) => ({
+      "command": "node",
+      "args": ["dist/index.js"],
+      "env": { "NOVITA_API_KEY": config.novitaApiKey }
+    })
+  exampleConfig:
+    novitaApiKey: your_dummy_novita_api_key_here
