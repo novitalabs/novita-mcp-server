@@ -19,21 +19,17 @@ Supported operations are as follows:
 
 ## Installation
 
-You can install the package using either npm, mcp-get, or Smithery:
+You can install the package using npm, or Smithery:
 
-### Installing via Smithery
+**Using npm**
 
-To install novita-mcp-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@novitalabs/novita-mcp-server):
-
-```bash
-npx -y @smithery/cli install @novitalabs/novita-mcp-server --client claude
-```
-
-### Installing Manually
-Using npm:
 ```bash
 npm install -g @novitalabs/novita-mcp-server
 ```
+
+**Using Smithery**
+
+Visit the [https://smithery.ai/server/@novitalabs/novita-mcp-server](https://smithery.ai/server/@novitalabs/novita-mcp-server) and follow the "Install" instructions to install the server.
 
 ## Configuration to use novita-mcp-server
 
