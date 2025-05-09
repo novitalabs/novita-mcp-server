@@ -3,6 +3,10 @@
 
 `novita-mcp-server` is a Model Context Protocol (MCP) server that provides seamless interaction with Novita AI platform resources. We recommend accessing this server through [Claude Desktop](https://claude.ai/download), [Cursor](https://www.cursor.com/), or any other compatible MCP client.
 
+<a href="https://glama.ai/mcp/servers/@novitalabs/novita-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@novitalabs/novita-mcp-server/badge" alt="Novita Server MCP server" />
+</a>
+
 ## Features
 
 > ⚠️ **Beta Notice**: `novita-mcp-server` is currently in beta and only supports GPU instance management. Additional resource types will be supported in future releases.
