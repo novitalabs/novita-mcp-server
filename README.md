@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/novitalabs-novita-mcp-server-badge.png)](https://mseep.ai/app/novitalabs-novita-mcp-server)
+
 # Novita MCP Server
 [![smithery badge](https://smithery.ai/badge/@novitalabs/novita-mcp-server)](https://smithery.ai/server/@novitalabs/novita-mcp-server)
 
